@@ -1,0 +1,29 @@
+.navegacao {
+  position: fixed;
+  height: 71px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(24, 24, 24);
+  margin-top: 5px;
+
+  .navegacao-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: auto;
+
+    a {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      color: #858585;
+
+      svg {
+        cursor: pointer;
+        height: 20px;
+      }
+    }
+  }
+}

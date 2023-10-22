@@ -1,0 +1,33 @@
+.App .artista {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  .capa img {
+    width: 90px;
+    border-radius: 12px;
+    box-shadow: 1px 3px 4px 0 #0000008a;
+  }
+
+  .info-artista {
+    padding-left: 25px;
+    flex: 1;
+
+    * {
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+    h4 {
+      font-weight: normal;
+      margin-top: 0.2em;
+      margin-bottom: 0.3em;
+      font-size: 0.9em;
+    }
+
+  }
+
+}

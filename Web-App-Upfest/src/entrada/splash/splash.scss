@@ -1,0 +1,19 @@
+.Splash {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #181818;
+  width: 100%;
+
+  img {
+    max-width: 80%;
+  }
+
+  h4{
+    font-weight: 300;
+    font-size: 4vw;
+    color: #939393;
+    margin-top: 250px;
+  }
+}

@@ -1,0 +1,110 @@
+.detalhes {
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+  background-color: #181818;
+
+
+  h4 {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  .capa {
+    width: 100%;
+    text-align: center;
+    margin-top: 185px;
+    z-index: 1;
+
+    .fundo {
+      width: 100%;
+      height: 160px;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+
+      .blur {
+        height: 100%;
+        background-color: rgba(50, 50, 50, 0.38);
+        backdrop-filter: blur(5px);
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 155px;
+      height: 155px;
+      max-width: 300px;
+      border-radius: 150px;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+    }
+
+    .circulo-likes {
+      background-color: #181818;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: white;
+      position: absolute;
+      top: 115px;
+      right: 20px;
+
+      svg {
+        font-size: 1em;
+        color: #c8c7d4;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .info-artista {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    width: 55%;
+    color: #fff;
+
+    > .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h1 {
+        font-size: 1em;
+        margin: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: #ff8a00;
+        margin: 0;
+        font-weight: 500;
+      }
+
+    }
+  }
+
+  .sinopse {
+    p {
+      color: #e6e6e6;
+      line-height: 1.2em;
+      text-align: left;
+    }
+  }
+}

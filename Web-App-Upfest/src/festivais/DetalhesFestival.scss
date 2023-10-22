@@ -1,0 +1,93 @@
+.detalhesFest {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .fundoFest {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 75%;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.info-fest {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  .infoFest {
+    span {
+      font-weight: 500;
+      font-size: 5vw;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    > h1 {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 4vw;
+      color: #c2c2c2;
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+
+    > h1:first-of-type {
+      color: #ff9900;
+      font-weight: 300;
+      font-size: 3vw;
+    }
+  }
+}
+
+.circulo-likesFest {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #181818;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 10px 0;
+  color: white;
+}
+
+.sinopse {
+  p {
+    color: #e6e6e6;
+    line-height: 1.2em;
+    text-align: left;
+  }
+}
+
+
+.sem-resultados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  img {
+    display: flex;
+    margin: 20px;
+  }
+    h3 {
+      color: #9f9f9f;
+      font-weight: 300;
+      font-size: 5vw;  }
+}
